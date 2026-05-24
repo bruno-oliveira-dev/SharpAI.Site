@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:api.anthropic.com)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\Bruno\\\\.claude\\\\projects\\\\C--Projetos-sharpai-v2\\\\5592afad-99c3-436f-b26f-0d4ae8b668a6\\\\tool-results\\\\extracted\" -Recurse | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"C:\\\\Users\\\\Bruno\\\\.claude\\\\projects\\\\C--Projetos-sharpai-v2\\\\5592afad-99c3-436f-b26f-0d4ae8b668a6\\\\tool-results\\\\extracted\\\\\", \"\"\\) })"
+    ]
+  }
+}
