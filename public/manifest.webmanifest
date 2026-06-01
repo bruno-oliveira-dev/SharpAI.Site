@@ -1,0 +1,14 @@
+{
+  "name": "SharpAI",
+  "short_name": "SharpAI",
+  "description": "Engenharia de IA e automação para times que medem deploy, não tese.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#08080A",
+  "theme_color": "#08080A",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/assets/sharpai-symbol.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/assets/sharpai-logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
