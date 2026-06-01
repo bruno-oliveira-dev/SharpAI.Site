@@ -38,7 +38,7 @@ export default function Work() {
         <div>
           <div className="hud-label">[ Casos · 2024–2026 ]</div>
           <Reveal as="h2" id="trabalho-heading" className="section-title">
-            Sistemas <span className="t-accent">em produção.</span>
+            O que <span className="t-accent">construímos.</span>
           </Reveal>
         </div>
         <div className="work-controls">
