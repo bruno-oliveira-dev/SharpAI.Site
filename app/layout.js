@@ -24,7 +24,7 @@ const serif = Instrument_Serif({
 const SITE_URL = "https://sharpai.com.br";
 const SITE_NAME = "SharpAI";
 const SITE_DESC =
-  "Engenharia de IA e automação para times que medem deploy, não tese. Sistemas em produção, não slides.";
+  "Engenharia de IA e automação para times que medem deploy, não tese.";
 
 export const metadata = {
   metadataBase: new URL(SITE_URL),
@@ -70,9 +70,9 @@ export const metadata = {
     googleBot: { index: true, follow: true, "max-image-preview": "large" },
   },
   icons: {
-    icon: "/assets/sharpai-symbol.png",
-    shortcut: "/assets/sharpai-symbol.png",
-    apple: "/assets/sharpai-symbol.png",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
   manifest: "/manifest.webmanifest",
 };
@@ -92,13 +92,7 @@ const ORGANIZATION_JSONLD = {
   url: SITE_URL,
   logo: `${SITE_URL}/assets/sharpai-logo.png`,
   description: SITE_DESC,
-  email: "hello@sharpai.com.br",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Av. Paulista, 1000",
-    addressLocality: "São Paulo",
-    addressCountry: "BR",
-  },
+  email: "brunexx15@gmail.com",
   sameAs: [],
 };
 

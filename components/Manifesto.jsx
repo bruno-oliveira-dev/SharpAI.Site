@@ -36,24 +36,24 @@ export default function Manifesto() {
 
       <div className="stats" role="list">
         <div className="stat" role="listitem">
-          <div className="stat-num"><CountUp to={40} suffix="+" /></div>
-          <div className="stat-label">Sistemas em produção</div>
-          <div className="stat-aux">desde 2021</div>
-        </div>
-        <div className="stat" role="listitem">
-          <div className="stat-num"><CountUp to={12} /></div>
-          <div className="stat-label">Times que voltaram</div>
-          <div className="stat-aux">retenção · 24m</div>
-        </div>
-        <div className="stat" role="listitem">
-          <div className="stat-num"><CountUp to={99.8} decimals={1} suffix="%" /></div>
-          <div className="stat-label">SLA cumprido</div>
-          <div className="stat-aux">média móvel · 90d</div>
+          <div className="stat-num"><CountUp to={10} suffix="+" /></div>
+          <div className="stat-label">Projetos entregues</div>
+          <div className="stat-aux">portfólio · 2024-2026</div>
         </div>
         <div className="stat" role="listitem">
           <div className="stat-num"><CountUp to={5} /></div>
-          <div className="stat-label">Anos de código entregue</div>
-          <div className="stat-aux">SP · BR</div>
+          <div className="stat-label">Anos de experiência</div>
+          <div className="stat-aux">engenharia · IA</div>
+        </div>
+        <div className="stat" role="listitem">
+          <div className="stat-num"><CountUp to={99} decimals={1} suffix="%" /></div>
+          <div className="stat-label">Satisfação de clientes</div>
+          <div className="stat-aux">feedback · net promoter</div>
+        </div>
+        <div className="stat" role="listitem">
+          <div className="stat-num"><CountUp to={24} suffix="h" /></div>
+          <div className="stat-label">Tempo de resposta</div>
+          <div className="stat-aux">SLA · garantido</div>
         </div>
       </div>
     </section>

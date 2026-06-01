@@ -29,7 +29,6 @@ export default function Footer() {
           </div>
           <div>
             <div className="hud-label">Social</div>
-            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-cursor="abrir" aria-label="LinkedIn (abre em nova aba)">LinkedIn ↗</a>
             <a href="https://github.com" target="_blank" rel="noopener noreferrer" data-cursor="abrir" aria-label="GitHub (abre em nova aba)">GitHub ↗</a>
             <a href="https://x.com" target="_blank" rel="noopener noreferrer" data-cursor="abrir" aria-label="X / Twitter (abre em nova aba)">X / Twitter ↗</a>
           </div>

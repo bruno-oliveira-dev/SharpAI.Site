@@ -44,7 +44,7 @@ export default function Contact() {
     const body = encodeURIComponent(
       `Nome: ${form.name}\nE-mail: ${form.email}\n\nProjeto:\n${form.project}\n\n— enviado via sharpai.com.br`
     );
-    window.location.href = `mailto:hello@sharpai.com.br?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:brunexx15@gmail.com?subject=${subject}&body=${body}`;
     setStatus({ type: 'success', msg: 'Briefing enviado. Verifique seu cliente de e-mail.' });
     setForm({ name: '', email: '', project: '' });
   };
@@ -52,11 +52,11 @@ export default function Contact() {
   const copyEmail = async (e) => {
     e.preventDefault();
     try {
-      await navigator.clipboard.writeText('hello@sharpai.com.br');
+      await navigator.clipboard.writeText('brunexx15@gmail.com');
       setCopied(true);
       setTimeout(() => setCopied(false), 1800);
     } catch {
-      window.location.href = 'mailto:hello@sharpai.com.br';
+      window.location.href = 'mailto:brunexx15@gmail.com';
     }
   };
 
@@ -135,17 +135,13 @@ export default function Contact() {
             <ul className="contact-channels">
               <li>
                 <span className="hud-label">E-mail</span>
-                <a href="mailto:hello@sharpai.com.br" onClick={copyEmail} data-cursor={copied ? 'copiado' : 'copiar'}>
-                  {copied ? 'copiado ✓' : 'hello@sharpai.com.br'}
+                <a href="mailto:brunexx15@gmail.com" onClick={copyEmail} data-cursor={copied ? 'copiado' : 'copiar'}>
+                  {copied ? 'copiado ✓' : 'brunexx15@gmail.com'}
                 </a>
               </li>
               <li>
-                <span className="hud-label">LinkedIn</span>
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-cursor="abrir">/company/sharpai ↗</a>
-              </li>
-              <li>
-                <span className="hud-label">Endereço</span>
-                <span>Av. Paulista, 1000 — São Paulo, BR</span>
+                <span className="hud-label">WhatsApp</span>
+                <a href="https://wa.me/5511941686905" target="_blank" rel="noopener noreferrer" data-cursor="abrir">(11) 94168-6905 ↗</a>
               </li>
               <li>
                 <span className="hud-label">Horário local</span>
